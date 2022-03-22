@@ -24,12 +24,14 @@ const GifGrid = ({ category }: { category: string }) => {
   }
 
   return (
-    <div>
+    <>
       <h3> {category} </h3>
-      {images.map((img: { id: string; title: string; url: string }) => (
-        <GifGridItem key={img.id} {...img} />
-      ))}
-    </div>
+      <div className="card-grid">
+        {images.map((img: { id: string; title: string; url: string }) => (
+          <GifGridItem key={img.id} {...img} />
+        ))}
+      </div>
+    </>
   )
 }
 
