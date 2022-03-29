@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`Testing AddCategory > it should show correctly  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+     
+  </p>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
